@@ -31,7 +31,7 @@ Les données d'entrée saisies par l'utilisateur seront constituées de plusieur
 
 La première ligne contient de nombreux paramètres de configuration. Les paramètres sont séparés par un espace. Le format de la première ligne ressemblera à ceci:
 
-                                                          Menu_code <Autres paramètres>
+                                                   Menu_code <Autres paramètres>
 
 Le paramètre Menu_code est utilisé pour déterminer si le solveur prendra en charge les calculs des trois méthodes de calcul répertoriées, à savoir:
 
@@ -41,12 +41,27 @@ Le paramètre Menu_code est utilisé pour déterminer si le solveur prendra en c
 
 Si l'entrée (Menu_code) n'est pas valide, imprimez l'écran "Erreur d'identification du solveur" ou imprimez la valeur -1 à l'écran
 
+D'autres paramètres seront différents pour chaque calcul et sont décrits en détail dans les sections IV, V
 
+**IV. Trigonométrie**
 
+1. Des données d'entrée
 
+Lors de la sélection de la trigonométrie, les données d'entrée se composent de 3 lignes. La première ligne de données d'entrée est Menu_code, la deuxième ligne comprendra 3 paramètres de configuration et la troisième ligne est la valeur à calculer. Les données d'entrée ont le format suivant:
 
+                                                1
+                                             n  m  p
+                                                x
 
+Dans la fonction ci-dessus, les valeurs représentées par:
 
+- n : définir le calcul (sin/cos/tan)
+
+- m : spécifiez l'unité d'entrée (degrés/radians)
+
+- p : précision des résultats de calcul
+
+- x : valeur à calculer. Exemple : sin(x)
 
 
 
