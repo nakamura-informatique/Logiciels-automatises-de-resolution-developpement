@@ -25,3 +25,51 @@ Dans le cadre de ce projet, j'ai implémenté un outil Solveur simple capable de
 
 Dans ce projet, j'ai implémenté un programme qui simule un solveur simple. Le programme recevra les informations d'entrée de l'utilisateur à partir du clavier, y compris les paramètres de configuration pour le calcul à effectuer et la valeur d'entrée du calcul. Ensuite, le programme calculera et imprimera à l'écran les résultats obtenus après le processus de mise en œuvre.
 
+**III. Description du programme**
+
+Les données d'entrée saisies par l'utilisateur seront constituées de plusieurs lignes, dans lesquelles la première ligne est utilisée pour décrire et les lignes suivantes sont les valeurs saisies pour le calcul
+
+La première ligne contient de nombreux paramètres de configuration. Les paramètres sont séparés par un espace. Le format de la première ligne ressemblera à ceci:
+
+                                                          Menu_code <Autres paramètres>
+
+Le paramètre Menu_code est utilisé pour déterminer si le solveur prendra en charge les calculs des trois méthodes de calcul répertoriées, à savoir:
+
+- Si c'est 1 : Trigonométrie
+
+- Si c'est 2 : Opération arithmétique
+
+Si l'entrée (Menu_code) n'est pas valide, imprimez l'écran "Erreur d'identification du solveur" ou imprimez la valeur -1 à l'écran
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
