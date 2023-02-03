@@ -131,19 +131,47 @@ Cependant, avec r > 5, les éléments ajoutés ont une valeur plutôt petite, le
 
 - cos(x) = 1 - x^2/2! + x^4/4! - x^6/6! + x^8/8! - x^10/10!
 
-                            **Remarque sur l'angle x dans la formule de Taylor**
+                            Remarque sur l'angle x dans la formule de Taylor
 
 L'unité de mesure de l'angle x dans la formule de Taylor est le radian. Par conséquent, si l'angle entré dans le programme est en degrés, il est nécessaire de convertir l'angle à la valeur correspondante en radians avant d'effectuer le calcul selon la formule de Taylor. Formule pour convertir un angle de degrés en radians
 
+                               x (degrés) = x * (π/180) (rad)
 
+Dans lequel, le nombre π est pris approximativement égal à 3,14159
 
+8. Calcul tan
 
+           tan(x)=sin(x)/cos(x)
 
+Avec sin, cos est approximé selon le point 5. Puisqu'il est calculé par la formule d'approximation, l'angle d'entrée x doit également être calculé en radians, si l'angle d'entrée est calculé en degrés, changez-le en radians comme décrit dans la section 5.
 
+                        Remarque sur l'angle invalide lors du calcul 'tan'
 
+tan(x) peut être indéfini lorsque cos(x) est égal à 0. Par conséquent, tan(x) n'est défini que lorsque:
 
+- Si x est en degrés: 𝑥 ≠ 90
 
+- Si x est en radians: 𝑥 ≠ 𝜋/2
 
+Si la valeur de x rend tan(x) indéfini, la valeur est considérée comme invalide et le programme imprime -1
+
+9. Opérations trigonométriques invalides
+
+Rappel de quelques cas de trigonométrie invalide
+
+- Le paramètre n (calcul) n'est pas 1, 2, 3
+
+- Le paramètre m (unité de mesure) n'est pas 0,1
+
+- Le paramètre p (arrondi) n'est pas 2, 4, 7
+
+- Dans le cas n = 1 :
+
+          - Si m = 0, c'est-à-dire en degrés, x  ≠  90
+          
+          - Si m = 1, en radians, 𝑥 ≠ 𝜋/2
+
+**V. Calcul arithmétique**
 
 
 
