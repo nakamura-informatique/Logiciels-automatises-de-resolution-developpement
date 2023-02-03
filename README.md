@@ -173,6 +173,25 @@ Rappel de quelques cas de trigonométrie invalide
 
 **V. Calcul arithmétique**
 
+1. Des données d'entrée
+
+Lors de la sélection d'opérations arithmétiques, l'entrée se compose de 3 lignes. La première ligne d'entrée est Menu_code, la deuxième ligne comprendra un paramètre de configuration et la troisième ligne est la valeur à calculer. Le format des données d'entrée est le suivant
+
+                                      2
+                                      m
+                                      x
+
+
+Dans:
+
+- m : définir les mathématiques (imprimer les diviseurs/facteur premiers)
+
+- x : valeur à calculer
+
+Remarque : Si l'un des paramètres de configuration de la ligne 2 n'est pas valide, le programme imprime -1 et se termine (inutile d'entrer la valeur x)
+
+Les paramètres et les données d'entrée seront décrits plus en détail ci-dessous
+
 
 
 
