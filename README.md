@@ -107,6 +107,35 @@ Le paramètre p est un nombre entier précisant la précision du résultat du ca
 
 Si p prend une valeur autre que les trois ci-dessus, c'est une valeur invalide. Le résultat de la saisie d'une valeur invalide est que le programme imprimera -1 et terminera le programme
 
+6. Données d'entrée x
+
+L'entrée x est un nombre réel correspondant à l'angle d'entrée pour effectuer des calculs trigonométriques. Pour que l'approximation soit correcte, le programme n'accepte que la vraie valeur de l'angle comme suit:
+
+- Si x est en degrés : 0 <= x <= 180
+
+- Si x est en radians : 0 <= x <= π
+
+Seul le calcul tan(x) aura un cas d'entrée x invalide, ce cas sera décrit dans la section calcul de tan(x)
+
+7. Calcul sinus, cos
+
+La formule d'expansion de Taylor nous donne un polynôme qui se rapproche d'une fonction différentiable à un point donné, le programme utilisera cette formule pour se rapprocher de la valeur de la fonction sinus, cosinus avec un angle d'entrée
+
+La formule d'approximation de Taylor pour les fonctions sinus et cosinus peut être consultée via : https://en.wikipedia.org/wiki/Taylor_series
+
+*Dans cette fonction, les valeurs de r et n sont les mêmes*
+
+Cependant, avec r > 5, les éléments ajoutés ont une valeur plutôt petite, le programme calculera sin, cos selon la formule d'approximation ci-dessus mais uniquement à l'élément r = 5, à savoir
+
+- sin(x) = x - (x^3)/3! + x^5/5! - x^7/7! + x^9/9! - x^11/11!
+
+- cos(x) = 1 - x^2/2! + x^4/4! - x^6/6! + x^8/8! - x^10/10!
+
+                            **Remarque sur l'angle x dans la formule de Taylor**
+
+L'unité de mesure de l'angle x dans la formule de Taylor est le radian. Par conséquent, si l'angle entré dans le programme est en degrés, il est nécessaire de convertir l'angle à la valeur correspondante en radians avant d'effectuer le calcul selon la formule de Taylor. Formule pour convertir un angle de degrés en radians
+
+
 
 
 
