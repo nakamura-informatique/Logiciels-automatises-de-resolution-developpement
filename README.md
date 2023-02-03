@@ -192,6 +192,60 @@ Remarque : Si l'un des paramètres de configuration de la ligne 2 n'est pas vali
 
 Les paramètres et les données d'entrée seront décrits plus en détail ci-dessous
 
+2. Des données de sortie
+
+Les données de sortie seront décrites spécifiquement pour chaque opération arithmétique et présentées en détail dans les sections 5 et 6
+
+3. Paramètre m
+
+Le paramètre m est un entier précisant le calcul correspondant à 1 des 2 valeurs suivantes
+
+- Si c'est 1 : Imprimer les diviseurs de x
+
+- Si c'est 2 : décomposer x en un produit de facteurs premiers
+
+Si m prend une valeur différente, c'est une valeur invalide. Le résultat de la saisie d'une valeur invalide est que le programme sera à -1 et terminera le programme
+
+4. Données d'entrée x
+
+L'entrée x est un entier supérieur à 1 correspondant au nombre à calculer arithmétique. Toute entrée x inférieure ou égale à 1 est considérée comme une valeur invalide
+
+5. Imprimer les diviseurs d'un nombre
+
+Le programme effectue l'impression de tous les diviseurs de x (c'est-à-dire les nombres par lesquels x est divisible). Avec les exigences suivantes:
+
+- Les diviseurs sont imprimés du plus petit au plus grand
+
+- Chaque diviseur est séparé par un espace
+
+- Fin de l'impression sans espaces supplémentaires autorisés
+
+- 1 et x sont également calculés comme diviseurs de x
+
+6. Analyse des facteurs premiers
+
+Le programme effectue l'analyse du nombre x en facteurs premiers. Le format de la sortie est décrit comme suit:
+
+              d1^p1*d2^p2*d3^p3...
+
+Dans:
+
+- d1, d2, d3,..., dn : Facteurs premiers
+
+- p1, p2, p3,..., pn : Exposants des facteurs premiers
+
+- ^ : Opérateur exponentiel
+
+- * : Opérateur de multiplication
+
+Quelques remarques :
+
+- Le facteur premier sera imprimé si son exposant est supérieur à 0
+
+- Les facteurs premiers sont imprimés du plus petit au plus grand
+
+- Les facteurs premiers et les exposants sont tous deux des entiers positifs
+
 
 
 
