@@ -63,6 +63,50 @@ Dans la fonction ci-dessus, les valeurs représentées par:
 
 - x : valeur à calculer. Exemple : sin(x)
 
+*Remarque : Si l'un des paramètres de configuration de la ligne 2 n'est pas valide, le programme imprime -1 et se termine (inutile d'entrer la valeur x)*
+
+Les paramètres et les données d'entrée seront décrits plus en détail ci-dessous
+
+2. Sortie des données à l'écran
+
+La donnée de sortie sera un nombre réel, le résultat après calcul de l'opération trigonométrique et arrondi selon le principe de la section 5
+
+3. Paramètre n
+
+Le paramètre n est un entier spécifiant le calcul correspondant à 1 des 3 valeurs:
+
+- Si c'est 1 : calculer sin(x)
+
+- Si c'est 2 : calculer cos(x)
+
+- Si c'est 3 : calculer tan(x)
+
+Si n prend une valeur différente, c'est une valeur invalide. Le résultat de la saisie d'une valeur non valide est que le programme imprimera -1 et terminera le programme.
+
+*Comment calculer sin(x), cos(x), tan(x) sera décrit en détail dans les sections 7 et 8*
+
+4. Paramètre m
+
+Le paramètre m est un entier spécifiant si l'angle d'entrée est en degrés ou en radians
+
+- Si m vaut 0 : l'angle est en degrés
+
+- Si m vaut 1 : angle en radians
+
+Si m reçoit une valeur autre que les deux valeurs ci-dessus, c'est une valeur invalide, le programme imprimera la valeur -1 et se terminera
+
+5. Paramètre p
+
+Le paramètre p est un nombre entier précisant la précision du résultat du calcul, cette précision est le nombre de décimales prises pour afficher le résultat à l'écran. Le paramètre p n'accepte qu'un seul des trois entiers suivants:
+
+- 2 : les résultats des calculs sont arrondis à 2 décimales
+
+- 4 : les résultats des calculs sont arrondis à 4 décimales
+
+- 7 : les résultats des calculs sont arrondis à 7 décimales
+
+Si p prend une valeur autre que les trois ci-dessus, c'est une valeur invalide. Le résultat de la saisie d'une valeur invalide est que le programme imprimera -1 et terminera le programme
+
 
 
 
