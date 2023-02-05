@@ -1,4 +1,6 @@
-# Logiciels-automatises-de-resolution-de-problemes-dans-le-domaine-des-mathematiques
+# Logiciels-automatises-de-resolution-developpement
+
+Ce programme est écrit en langage C#
 
 **I. Présentation de "Solveur"**
 
